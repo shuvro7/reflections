@@ -1,0 +1,45 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+     Where changes made to a code having thousands lines, it is hard to determine any typos
+     or changes without any dynamic tools or system.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    So that i can go back to history compare if any error happens or merge something whatever needed there after.
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+ Pros: For Git It can run with any editor, can work with offline.
+       For Google Docs It can save file manually.
+
+ Cons: For Git It has to save manually.
+       For Google Docs It can not work offline.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+  For Git :
+         Some times different files might be partially or strongly dependent on a project files and  file changes could make another file or files 
+         to be changed therefore we could allow processing multiple file simultaneously to be saved.if files are unrelated there it has to be treat separately
+  For Google Docs:
+         But in google docs files treated separately as two files often worked, opened or edited at the same time.
+
+How can you use the commands git log and git diff to view the history of files?
+
+  for viewing history of prevously committed statistics with id typing
+  git log --stat or git log 
+
+  for finding how many insertion and deletion and changes done from previous one typing
+  git diff present_id previous_id
+
+How might using version control make you more confident to make changes that could break something?
+
+  Even if i do any mistake or make any major changes i could use version control for keep track of 
+  my changes in each logical steps so that i can go back to through 
+
+  [git log & git checkout id & git diff id_prev id_present]
+
+  That is how git version control make me more confident
+
+Now that you have your workspace set up, what do you want to try using Git for?
+  Commit code and manage them locally in my bash...
