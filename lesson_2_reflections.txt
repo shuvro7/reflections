@@ -1,0 +1,37 @@
+What happens when you initialize a repository?
+
+  Initializes empty git repository on particular directory with nada commits may or not have untracked files.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+  Staging area is kind of middle area or point of working directory(like hdd) and repository(reflections) where to 
+  decide how many file to bundle up with before final comit. Generaly one commit per logical change is countable.
+
+How can you use the staging area to make sure you have one commit per logical change?
+   Whatever changes i have made in working directory i would know which file or files to take to staging area and i can 
+   do that after rechecking difference between working directory with staging area through command: git diff and after so 
+   add git add logical_changed_file then before commit to repository i could also check difference between staging area and
+   repository via git diff --staged. and finaly i could commit it with dit add logical_changed_file to repo with message.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+   When I might have to work with some experimental setup temporarily with any version of code or might wanna try new feature
+   trying in game or any project or any tree situation where you might not wanna break anything and linear checkout does not 
+   fit branches could help.
+
+   Branches could help replicating any checkout without changing it with a new human readable checkout name and adding new 
+   feature might not make dirt to its origin version.
+
+How do the diagrams help you visualize the branch structure?
+   By creating history diagram i could know how commits go on a linear fashion and then branches splits.Moreover
+   how back tracking of tree to the parent node could be helpful finding certain node position and whether we could track or not
+   by system.
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+   Merging two branches together means adding two branches previous commit into one with history back tracking link so, here
+   in result of merging coins and master we add coins branch previous commit with master branch with its complete back tracking history.
+
+   We represent all the commits and branches in a way so that we can visualize more quickly and things might not get over complicated.
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+   Pros: For Git's Automatic merging: Things might be get easier for normal merging, so that user might work efficiently.
+         For Git's Manual merging: Developer can decide and choose according to thei needs.
+   Cons: For Git's Automatic merging: Automatic merging could cause problem like code not running or getting weird behaviour
+         For Git's Manual merging: Manual merging can also be painful if file format is different or lake of communication
