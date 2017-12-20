@@ -8,3 +8,17 @@ automatically stay up-to-date with your remote repository?
 By manual pull changes i could picturising the whole situation more nicely rather than automatically.
 Moreover Automatic pull changes could take unwanted files and could introduce conglomerate buggy situation. 
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+--Branches normaly needed for any linear or complex commit into local or on git.Works on same repo and easy 
+  reference to previous version of commits.
+
+--For Clones We can clone after getting url from git after getting fork or from own 
+  repository remotely or even in directories in locally.Clone can be made to any permitted location.
+
+--But For Fork if its like we want to clone it from origin into m1 computer who is not the
+  owner then he/she creates an empty repo in github and push it to his/her account on github and tells m2
+  to clone to his/her computer but owner does not get certified that's where git introduce it's own mechanism
+  called forks.Fork can be made to github one location to another.
+
+
