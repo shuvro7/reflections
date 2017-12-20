@@ -2,3 +2,9 @@ When would you want to use a remote repository rather than keeping all your work
 
 So that I can work on cloud on any pc or even share with or work with people.
 
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+By manual pull changes i could picturising the whole situation more nicely rather than automatically.
+Moreover Automatic pull changes could take unwanted files and could introduce conglomerate buggy situation. 
+
