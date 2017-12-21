@@ -28,4 +28,8 @@ origin/master so in order to commit i cant realy delete my origin/master as it c
 like fast forward so i add a local master copy for future need and history tracking.So there we got master and
 origin/master. 
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
+If i had to choose to collaborate without git (version control) or github (vcs) i would have to go for shared folder 
+or light-weight cloud system like dropbox or something like that but for coding project it might not able to track
+everything in realtime or get everything done in a error free working way without breaking anything.
