@@ -33,3 +33,8 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 If i had to choose to collaborate without git (version control) or github (vcs) i would have to go for shared folder 
 or light-weight cloud system like dropbox or something like that but for coding project it might not able to track
 everything in realtime or get everything done in a error free working way without breaking anything.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Normal work like personal project or small team master branch might be enough although in some cases where for resolving 
+conflict or big contributing team should create branch.
