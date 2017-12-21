@@ -21,4 +21,11 @@ Describe the differences between forks, clones, and branches. When would you use
   to clone to his/her computer but owner does not get certified that's where git introduce it's own mechanism
   called forks.Fork can be made to github one location to another.
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Suppose I add some changes and I am in offline and my last head pointer head to (a remote branch called origin) 
+origin/master so in order to commit i cant realy delete my origin/master as it could be necessary for purposes
+like fast forward so i add a local master copy for future need and history tracking.So there we got master and
+origin/master. 
+
 
